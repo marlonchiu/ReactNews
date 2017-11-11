@@ -1,0 +1,62 @@
+.newsContainer{
+  margin-top: 20px;
+}
+.leftContainer{
+  width: 400px;
+  float: left;
+}
+
+.carousel img{
+  width: 100%;
+}
+.img_footer{
+  float: left;
+  width: 100%;
+}
+
+.middleContainer {
+  float: left;
+  width: 450px;
+  margin-left: 10px;
+}
+/*.news_tab {*/
+  /*float: left;*/
+  /*width: 450px;*/
+  /*margin-left: 10px;*/
+/*}*/
+.textList li a {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rightContainer {
+  float: left;
+  width: 350px;
+  margin-left: 10px;
+}
+/*.react_product {*/
+  /*float: left;*/
+  /*width: 350px;*/
+  /*margin-left: 10px;*/
+/*}*/
+
+.pro{
+  overflow: hidden;  /* 清除浮动，否则会导致后边设置的样式不生效*/
+  margin-top: 10px;
+}
+
+.pro a{
+  float: left;
+  width: 80px;
+  text-align: center;
+  height:24px;
+  line-height: 24px;
+}
+
+.pro_bg{
+  background: #eee;
+}

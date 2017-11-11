@@ -1,0 +1,12 @@
+.newsImgContainer{
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+/*设置文字不换行，多余的用点点点显示*/
+.newsImgContainer h3{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
